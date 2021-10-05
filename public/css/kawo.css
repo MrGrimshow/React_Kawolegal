@@ -1,0 +1,143 @@
+.navb {
+
+	padding-left: 5rem;
+	padding-right: 5rem;
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.navb2 {
+	padding-left: 5rem;
+	padding-right: 5rem;
+  color: #77bed8;
+  background-color: #46201e;
+
+}
+
+.footcss {
+
+	font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 15px;
+    background-color: #46201e;
+    width: 100%;
+
+}
+
+
+.ulstyl {
+	display: inline-block;
+	color: #77bed8;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.navb a {
+  color: #c35b48;
+}
+
+.navb2 a {
+  color: #c35b48;
+}
+
+
+.intro {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    color: white;
+}
+
+
+.search {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	border-radius: 5px;
+}
+
+.search {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-radius: 5px 0px 0px 5px;
+}
+
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  border-radius: 0px 5px 5px 0px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.colstyl {
+
+	margin-bottom: 5rem;
+	border-bottom-color: black;
+
+}
+
+.form-content{
+    margin-top: 30px;
+}
+
+.form-content h5{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.form-content input{
+    padding: 5px 80% 5px 0px;
+    border: 1px 1px thin rgb(133, 127, 127);
+    text-indent: 10px;
+}
+
+.btnreg {
+    margin-top: 12px;
+    margin-left: -15px;
+}
+
+.btnreg button{
+    background-color: skyblue;
+    padding: 7px 13px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.btnreg button:hover{
+    background-color: rgb(245, 57, 57);
+    color: white;}
